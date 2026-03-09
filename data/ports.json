@@ -1,0 +1,14 @@
+[
+{
+"name":"Shanghai Port",
+"country":"China",
+"lat":31.23,
+"lng":121.47
+},
+{
+"name":"Mumbai Port",
+"country":"India",
+"lat":18.96,
+"lng":72.84
+}
+]
