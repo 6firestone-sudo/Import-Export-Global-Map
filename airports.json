@@ -1,0 +1,26 @@
+[
+{
+"name":"Dubai Cargo Airport",
+"country":"UAE",
+"lat":25.2532,
+"lng":55.3657
+},
+{
+"name":"Frankfurt Airport",
+"country":"Germany",
+"lat":50.0379,
+"lng":8.5622
+},
+{
+"name":"Delhi IGI Airport",
+"country":"India",
+"lat":28.5562,
+"lng":77.1000
+},
+{
+"name":"Hong Kong Airport",
+"country":"China",
+"lat":22.3080,
+"lng":113.9185
+}
+]
