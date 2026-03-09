@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Global Trade Map</title>
+
+<link rel="stylesheet"
+href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h2>🌍 Global Import Export Intelligence Map</h2>
+
+<div class="controls">
+
+<input id="searchBox" placeholder="Search country / port / product">
+
+<button onclick="toggleLayer('ports')">🚢 Ports</button>
+<button onclick="toggleLayer('airports')">✈ Airports</button>
+<button onclick="toggleLayer('ships')">🚢 Ships</button>
+<button onclick="toggleLayer('companies')">📦 Companies</button>
+
+</div>
+
+</header>
+
+<div id="map"></div>
+
+<div id="infoPanel">
+Click on a country or marker
+</div>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+<script src="app.js"></script>
+
+</body>
+</html>
